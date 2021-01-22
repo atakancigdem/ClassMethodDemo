@@ -10,7 +10,8 @@ namespace ClassMethodDemo
         {
             Console.WriteLine("Müşteri Kayıt");
             Console.WriteLine("Ad Soyad : " + customer.Name + " " + customer.Surname);
-            Console.WriteLine("Müşterinin Yaşı : " + customer.Age);            
+            Console.WriteLine("Müşterinin Yaşı : " + customer.Age);
+            Console.WriteLine("Müşteri E-posta : " + customer.Mail);
             Console.WriteLine("Harika, müşteri kayıt oldu. Id : " + customer.Id);
             Console.WriteLine(" ");
         }
@@ -26,5 +27,6 @@ namespace ClassMethodDemo
         {
             Console.WriteLine("Müşteri kayıtlardan silini : " + customer.Name + " " + customer.Surname);
         }
+
     }
 }
